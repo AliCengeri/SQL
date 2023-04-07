@@ -1,0 +1,15 @@
+CREATE TABLE employee(
+	id INTEGER PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	birthday DATE,
+	email VARCHAR(100)
+);
+
+UPDATE employee
+SET nane = 'Ahmet'
+	birthday = '1999-12-05'
+	email = 'ahmet@hotmail.com'
+WHERE id = 2;
+
+DELETE FROM employee
+WHERE id = 33
